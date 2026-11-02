@@ -1,352 +1,530 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/Icon.png" type="image/png">
-    <title>Geheime PUBG Räume: Fundorte & Loot-Guide (2025 Update)</title>
-    <!-- SEO Stuff -->
-    <meta name="description" content="🔥 Komplettliste aller versteckten Räume in PUBG! Mit exakten Kartenpositionen für Erangel, Vikendi & alle Maps. Inklusive Loot-Tipps und Key-Spawnpunkte.">
-    <meta property="og:title" content="PUBG Geheimräume Guide - Alle geheimen Orte 2025">
-    <meta property="og:image" content="https://avatok.github.io/PUBG-Secret-Rooms/images/preview.png">
-    <meta property="og:url" content="https://avatok.github.io/PUBG-Secret-Rooms/">
-    <link rel="canonical" href="https://avatok.github.io/PUBG-Secret-Rooms/">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="styles.css" rel="stylesheet">
-</head>
-<body data-bs-spy="scroll" data-bs-target="#navbar">
-    <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <span style="color: var(--accent-color)">PUBG</span> Secret Rooms
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#erangel">Erangel</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#vikendi">Vikendi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#taego">Taego</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#deston">Deston</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#paramo">Paramo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#karakin">Karakin</a>
-                    </li>
-                </ul>
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0c1011" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <title>PUBG Secret Rooms 2025 – Fundorte & Karten | Avatok</title>
+    <meta
+      name="description"
+      content="PUBG Secret Rooms (Datenstand 2025): Entdecke markierte Geheimraum-Fundorte auf Erangel, Vikendi, Taego, Deston, Paramo und Karakin. Karten, Schlüssel und Loot-Bilder."
+    />
+    <link rel="canonical" href="https://avatok.github.io/PUBG-Secret-Rooms/" />
+    <link rel="icon" href="images/Icon.webp" type="image/webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content="PUBG Secret Rooms" />
+    <meta
+      property="og:title"
+      content="PUBG Secret Rooms 2025 – Karten & Fundorte"
+    />
+    <meta
+      property="og:description"
+      content="Fundorte und Karten der PUBG-Geheimräume, Datenstand 2025."
+    />
+    <meta
+      property="og:url"
+      content="https://avatok.github.io/PUBG-Secret-Rooms/"
+    />
+    <meta
+      property="og:image"
+      content="https://avatok.github.io/PUBG-Secret-Rooms/images/preview.webp"
+    />
+    <meta property="og:image:alt" content="PUBG Secret Rooms Übersichtskarte" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="preload"
+      as="image"
+      href="images/Erangel.webp"
+      fetchpriority="high"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "PUBG Secret Rooms 2025 – Alle Fundorte auf 6 Karten",
+        "description": "Karten mit markierten PUBG-Geheimraum-Fundorten",
+        "url": "https://avatok.github.io/PUBG-Secret-Rooms/",
+        "inLanguage": "de",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "PUBG Secret Rooms",
+          "url": "https://avatok.github.io/PUBG-Secret-Rooms/"
+        }
+      }
+    </script>
+    <script src="code.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+    <header class="site-header">
+      <div class="shell nav">
+        <a class="brand" href="#top" aria-label="PUBG Secret Rooms Startseite"
+          ><img src="images/Icon.webp" width="42" height="42" alt="" /><span
+            ><b>PUBG</b><small>SECRET ROOMS</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Menü öffnen"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" aria-label="Karten-Navigation">
+          <a href="#erangel">Erangel</a><a href="#vikendi">Vikendi</a
+          ><a href="#taego">Taego</a><a href="#deston">Deston</a
+          ><a href="#paramo">Paramo</a><a href="#karakin">Karakin</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero shell" id="top">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="dot"></span> PUBG MAP GUIDE</span>
+          <h1>Find the <em>hidden.</em><br />Own the game.</h1>
+          <p>
+            Datenstand 2025: Markierte Secret-Room-Fundorte auf sechs
+            PUBG-Karten – schnell finden, besser looten, cleverer spielen.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#karten"
+              >Karten entdecken <span aria-hidden="true">↗</span></a
+            ><a class="btn ghost" href="#guide">So funktioniert’s</a>
+          </div>
+          <p class="data-year">Datenstand: 2025</p>
         </div>
-    </nav>
-
-    <!-- Map Sections -->
-    <div class="container mt-5 pt-4">
-        <!-- Erangel -->
-        <section id="erangel" class="map-section">
-            <h2 class="map-title text-center">ERANGEL SECRET ROOMS</h2>
-            <div class="row">
-                <div class="col-lg-10 mx-auto text-center">
-                    <img src="images/Erangel.png" class="img-fluid" alt="Erangel Map">
-                </div>
+        <a class="hero-art" href="#erangel" aria-label="Erangel Karte ansehen"
+          ><img
+            src="images/Erangel.webp"
+            alt="Erangel PUBG Karte mit lila markierten Secret-Room-Fundorten"
+            width="1008"
+            height="953"
+            fetchpriority="high"
+            decoding="async"
+          /><span class="hero-art-tag">FEATURED MAP <b>ERANGEL ↗</b></span></a
+        >
+      </section>
+      <section class="shell overview" id="karten">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">EXPLORE THE MAPS</span>
+            <h2>Wähle dein Schlachtfeld.</h2>
+            <p>
+              Direkt zu den eingezeichneten Geheimräumen deiner Lieblingskarte.
+            </p>
+          </div>
+          <span class="counter">06 / MAPS</span>
+        </div>
+        <div class="map-grid">
+          <a class="map-tile" href="#erangel"
+            ><img
+              src="images/Erangel.webp"
+              alt="Secret-Room-Karte für Erangel"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            /><span><b>Erangel</b><small>Fundorte ansehen ↗</small></span></a
+          ><a class="map-tile" href="#vikendi"
+            ><img
+              src="images/Vikendi.webp"
+              alt="Secret-Room-Karte für Vikendi"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            /><span><b>Vikendi</b><small>Fundorte ansehen ↗</small></span></a
+          ><a class="map-tile" href="#taego"
+            ><img
+              src="images/Taego.webp"
+              alt="Secret-Room-Karte für Taego"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            /><span><b>Taego</b><small>Fundorte ansehen ↗</small></span></a
+          ><a class="map-tile" href="#deston"
+            ><img
+              src="images/Deston.webp"
+              alt="Secret-Room-Karte für Deston"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            /><span><b>Deston</b><small>Fundorte ansehen ↗</small></span></a
+          ><a class="map-tile" href="#paramo"
+            ><img
+              src="images/Paramo.webp"
+              alt="Secret-Room-Karte für Paramo"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            /><span><b>Paramo</b><small>Fundorte ansehen ↗</small></span></a
+          ><a class="map-tile" href="#karakin"
+            ><img
+              src="images/Karakin.webp"
+              alt="Secret-Room-Karte für Karakin"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            /><span><b>Karakin</b><small>Fundorte ansehen ↗</small></span></a
+          >
+        </div>
+      </section>
+      <section class="shell guide" id="guide">
+        <span class="eyebrow">QUICK GUIDE</span>
+        <h2>So nutzt du die Karten</h2>
+        <div class="steps">
+          <div>
+            <b>01</b>
+            <h3>Map auswählen</h3>
+            <p>Wähle eine PUBG-Karte aus der Übersicht.</p>
+          </div>
+          <div>
+            <b>02</b>
+            <h3>Markierungen prüfen</h3>
+            <p>
+              Die violetten Symbole zeigen die markierten Fundorte auf der
+              Karte.
+            </p>
+          </div>
+          <div>
+            <b>03</b>
+            <h3>Vor Ort suchen</h3>
+            <p>
+              Nutze die Beispielbilder, um Schlüssel, Eingänge und Loot besser
+              zu erkennen, sofern vorhanden.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="shell locations" aria-label="Detailkarten">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">ALL LOCATIONS</span>
+            <h2>Alle Secret-Room-Karten.</h2>
+          </div>
+        </div>
+        <article class="location" id="erangel">
+          <div class="location-heading">
+            <div>
+              <span class="eyebrow">MAP 01 / 06</span>
+              <h3>Erangel <span>Secret Rooms</span></h3>
+              <p>
+                Fundorte und Beispielbilder für Schlüssel, Eingang und Loot.
+              </p>
             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <div id="erangelCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#erangelCarousel" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#erangelCarousel" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#erangelCarousel" data-bs-slide-to="2"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    <img src="images/more/Erangel Key.jpg" class="img-fluid" alt="Erangel Key">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    <img src="images/more/Erangel entrance.jpg" class="img-fluid" alt="Erangel entrance">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    <img src="images/more/Erangel Loot.jpg" class="img-fluid" alt="Erangel Loot">
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#erangelCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#erangelCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                </div>
+            <a
+              href="images/Erangel.webp"
+              target="_blank"
+              rel="noopener"
+              class="view-full"
+              aria-label="Erangel Karte in voller Größe öffnen"
+              >Karte vergrößern ↗</a
+            >
+          </div>
+          <div class="map-frame">
+            <img
+              src="images/Erangel.webp"
+              alt="PUBG Erangel: Karte mit violett markierten Secret-Room-Fundorten"
+              width="1008"
+              height="953"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+          <div class="gallery">
+            <div class="gallery-title">
+              <h4>Einblicke &amp; Fundstücke</h4>
+              <span>Beispielbilder</span>
             </div>
-        </section>
-
-        <!-- Vikendi -->
-        <section id="vikendi" class="map-section">
-            <h2 class="map-title text-center">VIKENDI SECRET ROOMS</h2>
-            <div class="row">
-                <div class="col-lg-10 mx-auto text-center">
-                    <img src="images/Vikendi.png" class="img-fluid" alt="Vikendi Map">
-                </div>
+            <div class="gallery-grid">
+              <a
+                href="images/Erangel Key.webp"
+                target="_blank"
+                rel="noopener"
+                class="gallery-item"
+                ><img
+                  src="images/Erangel Key.webp"
+                  width="1440"
+                  height="765"
+                  loading="lazy"
+                  decoding="async"
+                  alt="PUBG Erangel: Schlüssel Beispielbild"
+                /><span>Schlüssel ↗</span></a
+              ><a
+                href="images/Erangel entrance.webp"
+                target="_blank"
+                rel="noopener"
+                class="gallery-item"
+                ><img
+                  src="images/Erangel entrance.webp"
+                  width="1440"
+                  height="765"
+                  loading="lazy"
+                  decoding="async"
+                  alt="PUBG Erangel: Eingang Beispielbild"
+                /><span>Eingang ↗</span></a
+              ><a
+                href="images/Erangel Loot.webp"
+                target="_blank"
+                rel="noopener"
+                class="gallery-item"
+                ><img
+                  src="images/Erangel Loot.webp"
+                  width="1440"
+                  height="765"
+                  loading="lazy"
+                  decoding="async"
+                  alt="PUBG Erangel: Loot Beispielbild"
+                /><span>Loot ↗</span></a
+              >
             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <div id="vikendiCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#vikendiCarousel" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#vikendiCarousel" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#vikendiCarousel" data-bs-slide-to="2"></button>
-                            <button type="button" data-bs-target="#vikendiCarousel" data-bs-slide-to="3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    <img src="images/more/Vikendi Key.jpg" class="img-fluid" alt="Vikendi Key">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    <img src="images/more/Vikendi entrance.jpg" class="img-fluid" alt="Vikendi entrance">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    <img src="images/more/Vikendi Loot.jpg" class="img-fluid" alt="Vikendi Loot">
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    <img src="images/more/Vikendi Secret Spot.jpg" class="img-fluid" alt="Vikendi Secret Spot">
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#vikendiCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#vikendiCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                </div>
+          </div>
+        </article>
+        <article class="location" id="vikendi">
+          <div class="location-heading">
+            <div>
+              <span class="eyebrow">MAP 02 / 06</span>
+              <h3>Vikendi <span>Secret Rooms</span></h3>
+              <p>
+                Geheimraum-Fundorte sowie Bilder von Schlüssel, Eingang, Loot
+                und einem Secret Spot.
+              </p>
             </div>
-        </section>
-
-        <!-- Taego -->
-        <section id="taego" class="map-section">
-            <h2 class="map-title text-center">TAEGO SECRET ROOMS</h2>
-            <div class="row">
-                <div class="col-lg-10 mx-auto text-center">
-                    <img src="images/Taego.png" class="img-fluid" alt="Taego Map">
-                </div>
+            <a
+              href="images/Vikendi.webp"
+              target="_blank"
+              rel="noopener"
+              class="view-full"
+              aria-label="Vikendi Karte in voller Größe öffnen"
+              >Karte vergrößern ↗</a
+            >
+          </div>
+          <div class="map-frame">
+            <img
+              src="images/Vikendi.webp"
+              alt="PUBG Vikendi: Karte mit violett markierten Secret-Room-Fundorten"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div class="gallery">
+            <div class="gallery-title">
+              <h4>Einblicke &amp; Fundstücke</h4>
+              <span>Beispielbilder</span>
             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <div id="taegoCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#taegoCarousel" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#taegoCarousel" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#taegoCarousel" data-bs-slide-to="2"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Taego Key Locations]
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Taego Room Positions]
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Taego Loot Contents]
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#taegoCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#taegoCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                </div>
+            <div class="gallery-grid">
+              <a
+                href="images/Vikendi Key.webp"
+                target="_blank"
+                rel="noopener"
+                class="gallery-item"
+                ><img
+                  src="images/Vikendi Key.webp"
+                  width="1440"
+                  height="765"
+                  loading="lazy"
+                  decoding="async"
+                  alt="PUBG Vikendi: Schlüssel Beispielbild"
+                /><span>Schlüssel ↗</span></a
+              ><a
+                href="images/Vikendi entrance.webp"
+                target="_blank"
+                rel="noopener"
+                class="gallery-item"
+                ><img
+                  src="images/Vikendi entrance.webp"
+                  width="1440"
+                  height="765"
+                  loading="lazy"
+                  decoding="async"
+                  alt="PUBG Vikendi: Eingang Beispielbild"
+                /><span>Eingang ↗</span></a
+              ><a
+                href="images/Vikendi Loot.webp"
+                target="_blank"
+                rel="noopener"
+                class="gallery-item"
+                ><img
+                  src="images/Vikendi Loot.webp"
+                  width="1440"
+                  height="765"
+                  loading="lazy"
+                  decoding="async"
+                  alt="PUBG Vikendi: Loot Beispielbild"
+                /><span>Loot ↗</span></a
+              ><a
+                href="images/Vikendi Secret Spot.webp"
+                target="_blank"
+                rel="noopener"
+                class="gallery-item"
+                ><img
+                  src="images/Vikendi Secret Spot.webp"
+                  width="1440"
+                  height="765"
+                  loading="lazy"
+                  decoding="async"
+                  alt="PUBG Vikendi: Secret Spot Beispielbild"
+                /><span>Secret Spot ↗</span></a
+              >
             </div>
-        </section>
-
-        <!-- Deston -->
-        <section id="deston" class="map-section">
-            <h2 class="map-title text-center">DESTON SECRET ROOMS</h2>
-            <div class="row">
-                <div class="col-lg-10 mx-auto text-center">
-                    <img src="images/Deston.png" class="img-fluid" alt="Deston Map">
-                </div>
+          </div>
+        </article>
+        <article class="location" id="taego">
+          <div class="location-heading">
+            <div>
+              <span class="eyebrow">MAP 03 / 06</span>
+              <h3>Taego <span>Secret Rooms</span></h3>
+              <p>Die markierten Fundorte auf Taego im Überblick.</p>
             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <div id="destonCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#destonCarousel" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#destonCarousel" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#destonCarousel" data-bs-slide-to="2"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Deston Key Locations]
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Deston Room Positions]
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Deston Loot Contents]
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#destonCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#destonCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                </div>
+            <a
+              href="images/Taego.webp"
+              target="_blank"
+              rel="noopener"
+              class="view-full"
+              aria-label="Taego Karte in voller Größe öffnen"
+              >Karte vergrößern ↗</a
+            >
+          </div>
+          <div class="map-frame">
+            <img
+              src="images/Taego.webp"
+              alt="PUBG Taego: Karte mit violett markierten Secret-Room-Fundorten"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="note">
+            Für diese Karte wurden keine zusätzlichen Detailbilder
+            bereitgestellt.
+          </p>
+        </article>
+        <article class="location" id="deston">
+          <div class="location-heading">
+            <div>
+              <span class="eyebrow">MAP 04 / 06</span>
+              <h3>Deston <span>Secret Rooms</span></h3>
+              <p>
+                Alle auf der bereitgestellten Deston-Karte markierten
+                Positionen.
+              </p>
             </div>
-        </section>
-
-        <!-- Paramo -->
-        <section id="paramo" class="map-section">
-            <h2 class="map-title text-center">PARAMO SECRET ROOMS</h2>
-            <div class="row">
-                <div class="col-lg-10 mx-auto text-center">
-                    <img src="images/Paramo.png" class="img-fluid" alt="Paramo Map">
-                </div>
+            <a
+              href="images/Deston.webp"
+              target="_blank"
+              rel="noopener"
+              class="view-full"
+              aria-label="Deston Karte in voller Größe öffnen"
+              >Karte vergrößern ↗</a
+            >
+          </div>
+          <div class="map-frame">
+            <img
+              src="images/Deston.webp"
+              alt="PUBG Deston: Karte mit violett markierten Secret-Room-Fundorten"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="note">
+            Für diese Karte wurden keine zusätzlichen Detailbilder
+            bereitgestellt.
+          </p>
+        </article>
+        <article class="location" id="paramo">
+          <div class="location-heading">
+            <div>
+              <span class="eyebrow">MAP 05 / 06</span>
+              <h3>Paramo <span>Secret Rooms</span></h3>
+              <p>
+                Die eingezeichneten Fundorte auf der kompakten Paramo-Karte.
+              </p>
             </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <div id="paramoCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#paramoCarousel" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#paramoCarousel" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#paramoCarousel" data-bs-slide-to="2"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Paramo Key Locations]
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Paramo Room Positions]
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Paramo Loot Contents]
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#paramoCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#paramoCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                </div>
+            <a
+              href="images/Paramo.webp"
+              target="_blank"
+              rel="noopener"
+              class="view-full"
+              aria-label="Paramo Karte in voller Größe öffnen"
+              >Karte vergrößern ↗</a
+            >
+          </div>
+          <div class="map-frame">
+            <img
+              src="images/Paramo.webp"
+              alt="PUBG Paramo: Karte mit violett markierten Secret-Room-Fundorten"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="note">
+            Für diese Karte wurden keine zusätzlichen Detailbilder
+            bereitgestellt.
+          </p>
+        </article>
+        <article class="location" id="karakin">
+          <div class="location-heading">
+            <div>
+              <span class="eyebrow">MAP 06 / 06</span>
+              <h3>Karakin <span>Secret Rooms</span></h3>
+              <p>Übersicht der markierten Geheimraum-Positionen auf Karakin.</p>
             </div>
-        </section>
-
-        <!-- Karakin -->
-        <section id="karakin" class="map-section">
-            <h2 class="map-title text-center">KARAKIN SECRET ROOMS</h2>
-            <div class="row">
-                <div class="col-lg-10 mx-auto text-center">
-                    <img src="images/Karakin.png" class="img-fluid" alt="Karakin Map">
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <div id="karakinCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#karakinCarousel" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#karakinCarousel" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#karakinCarousel" data-bs-slide-to="2"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Karakin Key Locations]
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Karakin Room Positions]
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img-placeholder w-100" style="height: 350px;">
-                                    [Karakin Loot Contents]
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#karakinCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#karakinCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-<!-- Footer -->
-<footer>
-    <div class="container text-center">
-        <p class="mb-0">
-            Copyright © 
-            <a href="https://avatok.github.io/Website/index.html" target="_blank" style="color: var(--accent-color); text-decoration: none;">
-                Avatok
-            </a> 
-            | PUBG Secret Rooms Guide
-        </p>
-    </div>
-</footer>
-
-    <!-- Bootstrap JS and Popper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script src="code.js"></script>
-</body>
+            <a
+              href="images/Karakin.webp"
+              target="_blank"
+              rel="noopener"
+              class="view-full"
+              aria-label="Karakin Karte in voller Größe öffnen"
+              >Karte vergrößern ↗</a
+            >
+          </div>
+          <div class="map-frame">
+            <img
+              src="images/Karakin.webp"
+              alt="PUBG Karakin: Karte mit violett markierten Secret-Room-Fundorten"
+              width="1008"
+              height="955"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="note">
+            Für diese Karte wurden keine zusätzlichen Detailbilder
+            bereitgestellt.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <div>
+          <strong>PUBG <span>SECRET ROOMS</span></strong>
+          <p>
+            Inoffizieller PUBG-Fundorte-Guide von Avatok. Nicht mit KRAFTON
+            verbunden.
+          </p>
+        </div>
+        <a
+          href="https://avatok.github.io/Website/index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Made by Avatok ↗</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
